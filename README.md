@@ -3,7 +3,7 @@ Untuk menjalankannya bisa langsung running file “testng.xml”
 
 Berikut penjelasan sederhana dari kode XML di atas:
 Ini adalah konfigurasi test automation (pengujian otomatis) untuk website Higo yang terbagi menjadi 2 bagian:
-1.	Test untuk Blog Higo (blog.higo.id):
+<p>1.	Test untuk Blog Higo (blog.higo.id):
 <p>•	TC0001: Mengecek tampilan halaman utama blog
 <p>•	TC0002: Menguji filter kategori artikel:
 <p>o	Update HIGOes
@@ -13,7 +13,7 @@ Ini adalah konfigurasi test automation (pengujian otomatis) untuk website Higo y
 <p>o	Business Tip
 <p>o	Semua kategori
 <p>•	TC0003: Menguji fitur pencarian artikel
-2.	Test untuk Website Utama Higo (higo.id):
+<p>2.	Test untuk Website Utama Higo (higo.id):
 <p>•	TC0001: Mengecek tampilan halaman utama
 <p>•	TC0002: Mengecek menu navigasi
 <p>•	TC0003: Mengecek bagian footer website
