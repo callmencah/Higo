@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Administrator/IdeaProjects/Higo">
+        <classes>
+            <class name="testcase.blog.higo.id.TC0001HomePage">
+                <methods>
+                    <include name="HomePage"/>
+                </methods>
+            </class>
+            <class name="testcase.blog.higo.id.TC0002FilterCategory">
+                <methods>
+                    <include name="FilterCategoryHIGOesUpdate"/>
+                    <include name="FilterCategoryHangout"/>
+                    <include name="FilterCategoryLifestyle"/>
+                    <include name="FilterCategoryTechAndSocial"/>
+                    <include name="FilterCategoryBusinessTip"/>
+                    <include name="FilterCategoryAll"/>
+                </methods>
+            </class>
+            <class name="testcase.blog.higo.id.TC0003SearchArtikel">
+                <methods>
+                    <include name="SearchArtikel"/>
+                </methods>
+            </class>
+            <class name="testcase.higo.id.TC0001HomePage">
+                <methods>
+                    <include name="HomePage"/>
+                </methods>
+            </class>
+            <class name="testcase.higo.id.TC0002Navigation">
+                <methods>
+                    <include name="Navigation"/>
+                </methods>
+            </class>
+            <class name="testcase.higo.id.TC0003Footer">
+                <methods>
+                    <include name="Footer"/>
+                </methods>
+            </class>
+            <class name="testcase.higo.id.TC0004FormHubungiHigo">
+                <methods>
+                    <include name="FormContactUsLayananHIGOspot"/>
+                    <include name="FormContactUsLayananIntegratedDigitalAgency"/>
+                    <include name="FormContactUsLayananWiFiAdvertising"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
